@@ -47,6 +47,7 @@ body {
 .normalText {
   font-family: Georgia, serif;
   font-size: .75em;
+  text-align: 100%;
 }
 
 .hoggyText {
@@ -69,15 +70,13 @@ ul {
 }
 
 .subtleText {
-  color: #D1D1D1;
+  color: green;
   font-size: .75em;
 }
-
 
 .indexWrapper {
   margin: auto;
 }
-
 
 .pigTile {
   display: inline;
@@ -89,6 +88,10 @@ ul {
   outline: #3B0B0B dotted thick;
   transition: 0.75s;
   opacity: 1;
+}
+
+.tile-img {
+  width: 100%;
 }
 
 .minBackgroundSneak {
@@ -109,7 +112,7 @@ ul {
 }
 
 .pigTile h3 {
-  color: #FBB;
+  color: rgb(12, 101, 46);
 }
 
 .minPigTile {
@@ -128,7 +131,6 @@ ul {
   transform: scale(1.05);
 }
 
-
 .App-logo {
   animation: App-logo-spin infinite 5s linear;
   height: 80px;
@@ -139,7 +141,6 @@ ul {
   padding: 1%;
   clear: both;
 }
-
 
 @keyframes App-logo-spin {
   from {
